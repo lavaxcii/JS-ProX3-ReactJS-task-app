@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import React, { Component } from 'react'
+import Overview from './components/Overview'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props)
+  
+    this.state = {
+      task: '',
+      taskArray: []
+    }
+
+    this.submitTask = this.submitTask.bind(this)
+    this.updateTask = this.updateTask.bind(this)
+  }
+
+  updateTask(event) {
+    this.setState({
+      task: event.target.value
+    })
+  }
+
+  submitTask = () => {
+    this.setState(prevState => ({
+      taskArray: [...prevState.taskArray, this.state.task]
+    }))
+  }
+
+  render() {
+    return (
+      <div>
+        <input type="text" onChange={this.updateTask} />
+        <button onClick={() => this.submitTask()} >Add task</button>
+        <Overview taskArray={this.state.taskArray} />
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
