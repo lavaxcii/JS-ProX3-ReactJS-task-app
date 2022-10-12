@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/js-prox3-reactjs-task-app/static/css/main.627fe15c.css",
+    "main.js": "/js-prox3-reactjs-task-app/static/js/main.c3d7cf0f.js",
+    "index.html": "/js-prox3-reactjs-task-app/index.html",
+    "main.627fe15c.css.map": "/js-prox3-reactjs-task-app/static/css/main.627fe15c.css.map",
+    "main.c3d7cf0f.js.map": "/js-prox3-reactjs-task-app/static/js/main.c3d7cf0f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.627fe15c.css",
+    "static/js/main.c3d7cf0f.js"
+  ]
+}
