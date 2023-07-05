@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.b523a167.css",
-    "main.js": "/static/js/main.17c896f9.js",
-    "index.html": "/index.html",
-    "main.b523a167.css.map": "/static/css/main.b523a167.css.map",
-    "main.17c896f9.js.map": "/static/js/main.17c896f9.js.map"
+    "main.css": "/js-prox3-reactjs-task-app/static/css/main.b523a167.css",
+    "main.js": "/js-prox3-reactjs-task-app/static/js/main.17c896f9.js",
+    "index.html": "/js-prox3-reactjs-task-app/index.html",
+    "main.b523a167.css.map": "/js-prox3-reactjs-task-app/static/css/main.b523a167.css.map",
+    "main.17c896f9.js.map": "/js-prox3-reactjs-task-app/static/js/main.17c896f9.js.map"
   },
   "entrypoints": [
     "static/css/main.b523a167.css",
